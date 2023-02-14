@@ -52,6 +52,8 @@ export default function Error() {
     if (rootHeight < windowHeight) {
       $footer.style.position = "fixed";
       $footer.style.bottom = "0";
+      $footer.style.left = "50%";
+      $footer.style.transform = "translateX(-50%)";
     }
   })();
 
