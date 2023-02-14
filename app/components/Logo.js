@@ -31,8 +31,7 @@ export function Logo() {
   $styles.insertAdjacentHTML("beforeend", css);
 
   $logo.className = "logo";
-  $img.src =
-    "https://alejoprin.github.io/sat_vs_fiat/assets/white_satoshi-symbol.svg";
+  $img.src = "app/assets/white_satoshi-symbol.svg";
   $img.alt = "satoshi image";
   $a.textContent = "Sat-vs-Fiat";
   $a.href = "#/";

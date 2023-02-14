@@ -49,13 +49,13 @@ export function BtcAndSatRate(props) {
 
   $btcAndSatRate.innerHTML = `
     <div class="btcRate-wrapper">
-      <img src="https://alejoprin.github.io/sat_vs_fiat/assets/btc_icon.png" alt="bitcoin logo image">
+      <img src="app/assets/btc_icon.png" alt="bitcoin logo image">
       <p>${btcRate}</p>
       <span>$/BTC</span>
     </div>
 
     <div class="satRate-wrapper">
-      <img src="https://alejoprin.github.io/sat_vs_fiat/assets/white_satoshi-symbol.svg" alt="satoshi logo image">
+      <img src="app/assets/white_satoshi-symbol.svg" alt="satoshi logo image">
       <p>${satoshiRate}</p>
       <span>SAT/$</span>
     </div>

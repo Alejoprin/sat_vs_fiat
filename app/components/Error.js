@@ -37,7 +37,7 @@ export default function Error() {
 
   $errorSection.innerHTML = `
     <h2 class="error-title">Satoshi's Zone</h2>
-    <img class="satoshi-img" src="https://alejoprin.github.io/sat_vs_fiat/assets/godSatoshi.jpg" alt="Satoshi Nakamoto">
+    <img class="satoshi-img" src="app/assets/godSatoshi.jpg" alt="Satoshi Nakamoto">
     <p>Satoshi blesses you today and always, little padawan.</p>
     <p>Now go back where you came from...!!</p>
   `;
