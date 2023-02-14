@@ -1,0 +1,58 @@
+:root {
+  --main-background: #2e3755;
+  --rank-background: #28293b;
+  --rank-background-header: #2b2d43;
+  --btc-color: #f7931a;
+  --primary-text-color: #afadd0;
+  --secondary-text-color: #525674;
+  --wildcard-color: #414d7a;
+  --fontSize-verySmall: 1.3rem;
+  --fontSize-small: 1.4rem;
+  --fontSize-medium: 2rem;
+  --fontSize-big: 2.4rem;
+}
+
+/* ***** Reset ***** */
+html {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-size: 62.5%;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+  background: radial-gradient(var(--main-background), var(--rank-background));
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  text-align: center;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ***** Utilities ***** */
+.none {
+  display: none !important;
+}
+
+.favoriteToggle {
+  color: var(--btc-color);
+}
