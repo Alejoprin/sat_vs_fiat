@@ -246,7 +246,7 @@ export function TopCurrenciesRank(props) {
     const $windowHeight = window.innerHeight;
 
     $topCurrienciesRankWrapper.style.height =
-      $windowHeight - $topCurrienciesRankWrapperPosition.top - 55 + "px";
+      $windowHeight - $topCurrienciesRankWrapperPosition.top - 50 + "px";
   })();
 
   // Sort button
