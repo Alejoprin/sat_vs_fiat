@@ -42,7 +42,6 @@ Smartphone or computer with a web browser installed and internet.
 
 ### Ranking view
 
-<!-- https://alejoprin.github.io/No_te_pases_ma/assets/ReadmeInstall.png -->
 <p align="center">
   <img src="app/assets/rank.png">
 </p>
